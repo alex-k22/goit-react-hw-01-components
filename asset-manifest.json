@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alex-k22/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/alex-k22/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "index.html": "/alex-k22/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/alex-k22/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/alex-k22/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
