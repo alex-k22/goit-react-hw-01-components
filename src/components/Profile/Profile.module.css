@@ -1,0 +1,71 @@
+@value grey-color: #8A98A5;
+@value light-grey: #F3F6F9;
+
+p {
+    margin: 0;
+}
+.profile {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 4px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.description {
+    padding: 20px;
+}
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+}
+.username {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.tag,
+.location {
+    font-size: 14px;
+    text-align: center;
+    color: grey-color;
+    margin-top: 10px;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: light-grey;
+}
+.stats_item {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid grey-color;
+    border-top:  1px solid grey-color;
+}
+.stats_item:last-child {
+    border-right: 0;
+}
+.label {
+    font-weight: 500;
+    font-size: 12px;
+    color: grey-color;
+}
+.quantity {
+    margin-top: 5px;
+}
