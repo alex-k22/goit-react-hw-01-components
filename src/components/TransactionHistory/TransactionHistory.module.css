@@ -1,0 +1,19 @@
+.transaction-history {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.transaction-history th {
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: lightblue;
+}
+.transaction-history td {
+    height: 30px;
+    text-align: center;
+}
+.transaction-history tr:nth-child(odd) {
+    background: #ebf3f9;
+  }
+.transaction-history tr:hover {background-color: coral;}
